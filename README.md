@@ -54,8 +54,8 @@ För att ändra namn på någon av länkarna, tex. About Me, editera då texten:
 ```
 
 Lägga till en page i menyn
---------------------------
-Följ stegen för Skapa content här ovan för att skapa en ny page. Klicka på `Content` i menyn. Kolla i listan på sidan <b>Content Controller</b>.
+----------------
+Följ stegen för <b>Skapa content</b> här ovan för att skapa en ny page. Klicka på `Content` i menyn. Kolla i listan på sidan <b>Content Controller</b>.
 Ditt nyss skapade content ska ha lagts till i denna lista längst ner. Den har då fått ett nummer. Som standard så skapas 8 contents som default. Ditt nya content bör därför ha fått nummer 9.
 Denna siffra behövs för att kunna länka till den nya sidan/page.
 
