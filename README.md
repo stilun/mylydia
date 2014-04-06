@@ -11,8 +11,8 @@ Installation av MyLydia
 2. Innan du laddar upp ramverket på studentservern behöver du öppna `.htaccess-filen` och skriva in sökvägen till platsen där du tänker installera ramverket. Ändra i RewriteBase `RewriteBase /~stlu12/phpmvc/kmom07/lydia/`
 
 3. För att ramverket ska fungera behöver du göra katalogen `site/data` skrivbar. Du gör den skrivbar med `chmod 777 site/data`. 
-Om det inte fungerar som det ska kan du göra katalogerna skrivbara i studentservern. Använd tex. FileZilla.
-Högerklicka på katalogerna, välj filrättigheter och skriv 777. Du måste också göra filen .ht.sqlite som finns i katalogen site/data skrivbar. Gör samma sak som för katalogen men skriv i stället 666. 
+Om det inte fungerar som det ska kan du göra katalogerna skrivbara i studentservern. Använd tex. sftp i FileZilla.
+Högerklicka på katalogen, välj filrättigheter och skriv 777. Du måste också göra filen `.ht.sqlite` som finns i katalogen `site/data` skrivbar. Gör samma sak som för katalogen men skriv i stället 666. 
 
 4. Öppna ramverket i din webbläsare och klicka på `module/install` på startsidan Index Controller för att slutföra installationen.
 
@@ -24,16 +24,16 @@ Om din inloggning lyckas så kan du ändra användarens kontouppgifter, såsom l
 
 Skapa content
 -------------
-Klicka på Content i menyn längst upp på sidan. Nu laddas sidan Content Controller. Längst ner i spalten actions finns länken create new content. Klicka på den.
+Klicka på Content i menyn längst upp på sidan. Nu laddas sidan Content Controller. I spalten actions längst ner på sidan finns länken create new content. Klicka på den.
 
 Nu laddas formuläret Create Content. 
 * Title är bloggposten/sidans titel,
-* Key är en nyckel. Här får man inte ha mellenslag i nyckelordet. Dvs. skriv tex. ny-sida i stället för ny sida.
+* Key är ett nyckelord. Här får du inte ha mellenslag. Dvs. skriv tex. ny-sida i stället för ny sida.
 * Content är en textarea, här skriver du in brödtext. Tänk på att implementera de filter som du vill ha.
-* Type, här skriver man vilken form av content man skapar.
+* Type, här skriver du vilken form av content man skapar.
 	För att skapa blogginlägg, skriv post. 
 	För att skapa en sida, skriv page. 
-* Filter, här kan man ange olika filter beroende på om man har implementerat dessa i contents brödtext. 
+* Filter, här kan du ange olika filter beroende på om man har implementerat dessa i contents brödtext. 
 	Filter: htmlpurify, bbcode och plain. Om inga filter önskas, fyll i plain.
 	
 Ändra namn/sökvägar på content
