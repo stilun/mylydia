@@ -114,6 +114,7 @@ $ly->config['theme'] = array(
 ------------------------------------------
 
 För att ändra färg och font, navigera till `site/themes/mytheme/style.css` och öppna den i valfri texteditor.
+
 <b>site/themes/mythemes/style.css:</b>
 ```CSS
 /**
@@ -183,4 +184,4 @@ a{color:#436370}
 #navbar ul.menu li a.selected{background-color:#FFFFFF;border-bottom:none;}
 ```
 
-Vill man göra mera genomgripande ändringar i ramverket gör man det i filen: <b>themes/grid/style.ccs</b>
+Vill man göra mera genomgripande ändringar i ramverket gör man det i filen: `themes/grid/style.css`.
