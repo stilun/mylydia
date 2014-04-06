@@ -8,10 +8,10 @@ Installation av MyLydia
 
 1. Klona ramverket från GitHub `git clone git://github.com/stilun/mylydia.git` eller gå in på `https://github.com/stilun/mylydia` och ladda ner det som en zip-fil och lägg filerna på en lämplig plats i din dator. Öppna ramverket med `cd mylydia` i Git Bash eller i Terminal.  
 
-2. Innan du laddar upp ramverket på studentservern behöver du öppna `.htaccess` och skriva in sökvägen till platsen där du tänker installera ramverket. Ändra i RewriteBase `RewriteBase /~stlu12/phpmvc/kmom07/lydia/`
+2. Innan du laddar upp ramverket på studentservern behöver du öppna `.htaccess` och skriva in sökvägen till platsen där du tänker installera ramverket. Ändra RewriteBase `RewriteBase /~stlu12/phpmvc/kmom07/lydia/` till din egen sökväg.
 
 3. För att ramverket ska fungera behöver du göra katalogen `site/data` skrivbar. Du gör den skrivbar med `chmod 777 site/data`. 
-Om det inte fungerar som det ska kan du göra katalogerna skrivbara i studentservern. Använd tex. sftp i FileZilla.
+Om det inte fungerar kan du göra katalogerna skrivbara i studentservern med hjälp av något sftp-program. Använd exempelvis FileZilla.
 Högerklicka på katalogen, välj filrättigheter och skriv 777. Du måste också göra filen `.ht.sqlite` som finns i katalogen `site/data` skrivbar. Gör samma sak som för katalogen men skriv i stället 666. 
 
 4. Öppna ramverket i din webbläsare och klicka på `module/install` på startsidan <b>Index Controller</b> för att slutföra installationen.
