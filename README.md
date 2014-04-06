@@ -107,9 +107,7 @@ $ly->config['theme'] = array(
   ),
 );
 ```
-
 ###Ändring av utseende/style med hjälp av CSS
-
 
 För att ändra färg och font, navigera till `site/themes/mytheme/style.css` och öppna den i valfri texteditor.
 
