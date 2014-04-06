@@ -6,7 +6,7 @@ skapat av Mikael Roos, lärare på Blekinge Tekniska Högskola.
 Installation av MyLydia
 -----------------------
 
-1. Klona ramverket från GitHub `git clone git://github.com/stilun/mylydia.git` eller ladda ner det som en zip-fil och lägg filerna på en lämplig plats i din dator. Öppna ramverket med `cd mylydia` i Git Bash eller i Terminal.  
+1. Klona ramverket från GitHub `git clone git://github.com/stilun/mylydia.git` eller gå in på `https://github.com/stilun/mylydia` och ladda ner det som en zip-fil och lägg filerna på en lämplig plats i din dator. Öppna ramverket med `cd mylydia` i Git Bash eller i Terminal.  
 
 2. Innan du laddar upp ramverket på studentservern behöver du öppna `.htaccess-filen` och skriva in sökvägen till platsen där du tänker installera ramverket. Ändra i RewriteBase `RewriteBase /~stlu12/phpmvc/kmom10/lydia/`
 
