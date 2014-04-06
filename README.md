@@ -8,7 +8,7 @@ Installation av MyLydia
 
 1. Klona ramverket från GitHub `git clone git://github.com/stilun/mylydia.git` eller gå in på `https://github.com/stilun/mylydia` och ladda ner det som en zip-fil och lägg filerna på en lämplig plats i din dator. Öppna ramverket med `cd mylydia` i Git Bash eller i Terminal.  
 
-2. Innan du laddar upp ramverket på studentservern behöver du öppna `.htaccess-filen` och skriva in sökvägen till platsen där du tänker installera ramverket. Ändra i RewriteBase `RewriteBase /~stlu12/phpmvc/kmom07/lydia/`
+2. Innan du laddar upp ramverket på studentservern behöver du öppna `.htaccess` och skriva in sökvägen till platsen där du tänker installera ramverket. Ändra i RewriteBase `RewriteBase /~stlu12/phpmvc/kmom07/lydia/`
 
 3. För att ramverket ska fungera behöver du göra katalogen `site/data` skrivbar. Du gör den skrivbar med `chmod 777 site/data`. 
 Om det inte fungerar som det ska kan du göra katalogerna skrivbara i studentservern. Använd tex. sftp i FileZilla.
@@ -33,7 +33,7 @@ Nu laddas formuläret Create Content.
 * Type, här skriver du vilken form av content man skapar.
 	För att skapa blogginlägg, skriv post. 
 	För att skapa en sida, skriv page. 
-* Filter, här kan du ange olika filter beroende på om man har implementerat dessa i contents brödtext. 
+* Filter, här kan du ange olika filter beroende på om man har implementerat dessa i brödtexten. 
 	Filter: htmlpurify, bbcode och plain. Om inga filter önskas, fyll i plain.
 	
 Ändra namn/sökvägar på content
@@ -56,7 +56,7 @@ För att ändra namn på någon av länkarna, tex. About Me, editera då texten:
 Lägga till en page
 ------------------
 Följ stegen för Skapa content här ovan för att skapa en ny page. Klicka på Content i menyn. Kolla i listan på sidan Content Controller.
-Ditt nyss skapade content ska ha lagts till i denna lista längst ner. Den har då fått ett nummer. Standard så skapas 8 contents som default. Så ditt nya content bör ha fått nummer 9 även kallat id.
+Ditt nyss skapade content ska ha lagts till i denna lista längst ner. Den har då fått ett nummer. Som standard så skapas 8 contents som default. Ditt nya content bör därför ha fått nummer 9.
 Denna siffra behövs för att kunna länka till den nya sidan/page.
 
 Det vi nu vill göra är att skapa en menylänk som visar sidan. 
