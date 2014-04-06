@@ -1,10 +1,9 @@
-My MVC project in Lydia.
-==============================
+#My MVC project in Lydia.
+
 Slutversionen av mitt MVC-projekt MyLydia, som är baserat på ramverket Lydia
 skapat av Mikael Roos, lärare på Blekinge Tekniska Högskola.
 
-Installation av MyLydia
------------------------
+###Installation av MyLydia
 
 1. Klona ramverket från GitHub `git clone git://github.com/stilun/mylydia.git` eller gå in på `https://github.com/stilun/mylydia` och ladda ner det som en zip-fil och lägg filerna på en lämplig plats i din dator. Öppna ramverket med `cd mylydia` i Git Bash eller i Terminal.  
 
@@ -16,14 +15,14 @@ Högerklicka på katalogen, välj filrättigheter och skriv 777. Du måste ocks�
 
 4. Öppna ramverket i din webbläsare och klicka på `module/install` på startsidan <b>Index Controller</b> för att slutföra installationen.
 
-Användning av ramverket
------------------------
+###Användning av ramverket
+
 Nu är grundinstallationen av ramverket klart och kan börja användas.
-Uppe i högra hörnet finns en login-länk. Klicka på den och prova att logga in med `root:root` för administratör och `doe:doe` för member.<br>
+Uppe i högra hörnet finns en login-länk. Klicka på den och prova att logga in med `root:root` för administratör eller `doe:doe` för member.<br>
 Om din inloggning lyckas så kan du ändra användarens kontouppgifter, såsom lösenord, email och namn.
 
-Skapa content
--------------
+###Skapa content
+
 Klicka på `Content` i menyn längst upp på sidan. Nu laddas sidan <b>Content Controller</b>. I spalten <b>Actions</b> längst ner på sidan finns länken `create new content`. Klicka på den.
 
 Nu laddas formuläret <b>Create Content</b>. 
@@ -36,8 +35,8 @@ Nu laddas formuläret <b>Create Content</b>.
 * Filter, här kan du ange olika filter beroende på om man har implementerat dessa i brödtexten. 
 	<br>Filter: htmlpurify, bbcode och plain. Om inga filter önskas, fyll i plain.
 	
-Ändra namn/sökvägar på content
-------------------------------
+###Ändra namn/sökvägar på content
+
 Navigera till: `site/config.php` och öppna den i en texteditor.
 
 För att ändra namn på någon av länkarna, tex. About Me, editera då texten: `'label'=>'About Me'`. Om `About Me` ändras till `About You` kommer detta att synas i menyn längst upp på sidan.
@@ -52,9 +51,8 @@ För att ändra namn på någon av länkarna, tex. About Me, editera då texten:
     'user' => array('label'=>'User', 'url'=>'user'),
 
 ```
+###Lägga till en page i menyn
 
-Lägga till en page i menyn
-----------------
 Följ stegen för <b>Skapa content</b> här ovan för att skapa en ny page. Klicka på `Content` i menyn. Kolla i listan på sidan <b>Content Controller</b>.
 Ditt nyss skapade content ska ha lagts till i denna lista längst ner. Den har då fått ett nummer. Som standard så skapas 8 contents som default. Ditt nya content bör därför ha fått nummer 9.
 Denna siffra behövs för att kunna länka till den nya sidan/page.
@@ -73,8 +71,8 @@ Navigera till: `site/config.php` och öppna den i en texteditor. Gå till `my-na
     'newpage' => array('label'=>'New Page', 'url'=>'page/view/9'), /* Denna rad läggs till för att skapa en ny länk till sidan*/
 ```
 
-Editera designen
------------------
+###Editera designen
+
 Navigera till: `site/config.php` och öppna den i en texteditor.
 Här kan du sedan editera en hel del saker som rör designen på hemsidan såsom, logotype, favicon, slogan, navigeringsmeny, header och footer.
 För att ändra till exempel logo, ladda upp logotypen till mappen `site/themes/mytheme/`.<br>
@@ -110,8 +108,8 @@ $ly->config['theme'] = array(
 );
 ```
 
-Ändring av utseende/style med hjälp av CSS
-------------------------------------------
+###Ändring av utseende/style med hjälp av CSS
+
 
 För att ändra färg och font, navigera till `site/themes/mytheme/style.css` och öppna den i valfri texteditor.
 
