@@ -31,8 +31,8 @@ Nu laddas formuläret Create Content.
 * Key är ett nyckelord. Här får du inte ha mellenslag. Dvs. skriv tex. ny-sida i stället för ny sida.
 * Content är en textarea, här skriver du in brödtext. Tänk på att implementera de filter som du vill ha.
 * Type, här skriver du vilken form av content man skapar.
-	För att skapa blogginlägg, skriv post. 
-	För att skapa en sida, skriv page. 
+	<br>För att skapa blogginlägg, skriv post. 
+	<br>För att skapa en sida, skriv page. 
 * Filter, här kan du ange olika filter beroende på om man har implementerat dessa i brödtexten. 
 	Filter: htmlpurify, bbcode och plain. Om inga filter önskas, fyll i plain.
 	
@@ -40,7 +40,7 @@ Nu laddas formuläret Create Content.
 ------------------------------
 Navigera till: `site/config.php` och öppna den i en texteditor.
 
-För att ändra namn på någon av länkarna, tex. About Me, editera då texten: 'label'=>'About Me'. I detta fall About Me, om den ändras till About You. Så kommer detta att synas i navigationen på sidan.
+För att ändra namn på någon av länkarna, tex. About Me, editera då texten: `'label'=>'About Me'`. I detta fall About Me, om den ändras till About You. Så kommer detta att synas i navigationen på sidan.
 
 ```PHP
   'my-navbar' => array(
