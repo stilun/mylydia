@@ -79,7 +79,7 @@ För att ändra till exempel logo, ladda upp logotypen till mappen `site/themes/
 Detta gör filen åtkomstbar via sökvägarna (OBS! Du kan behöva ändra filrättighet på bilden till 666.)
 Gå sen ner till rad `'logo' => 'logo_80x80.png'`. Skriv in det nya filnamnet i stället för `logo_80x80.png`. Gör på samma sätt om du vill ändra på favicon, slogan, header, osv.<br>
 
-För att ändra på footern, ändra i raden: `'footer' => '<p>Lydia &copy; by Stig Lundmark (stig@stilun.de)</p>',`.
+För att tex. ändra på footern, ändra i raden: `'footer' => '<p>Lydia &copy; by Stig Lundmark (stig@stilun.de)</p>',`.
 
 För att ändringarna ska fungera, ladda upp den ändrade och sparade filen till servern igen.
 
