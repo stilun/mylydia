@@ -24,7 +24,7 @@ Om din inloggning lyckas så kan du ändra användarens kontouppgifter, såsom l
 
 Skapa content
 -------------
-Klicka på Content i menyn längst upp på sidan. Nu laddas sidan Content Controller. I spalten actions längst ner på sidan finns länken create new content. Klicka på den.
+Klicka på Content i menyn längst upp på sidan. Nu laddas sidan Content Controller. I spalten actions längst ner på sidan finns länken `create new content`. Klicka på den.
 
 Nu laddas formuläret Create Content. 
 * Title är bloggposten/sidans titel,
@@ -40,7 +40,7 @@ Nu laddas formuläret Create Content.
 ------------------------------
 Navigera till: `site/config.php` och öppna den i en texteditor.
 
-För att ändra namn på någon av länkarna, tex. About Me, editera då texten: `'label'=>'About Me'`. I detta fall About Me, om den ändras till About You. Så kommer detta att synas i navigationen på sidan.
+För att ändra namn på någon av länkarna, tex. About Me, editera då texten: `'label'=>'About Me'`. Om `About Me` ändras till `About You` kommer detta att synas i menyn längst upp på sidan.
 
 ```PHP
   'my-navbar' => array(
