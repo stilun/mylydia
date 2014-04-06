@@ -13,7 +13,7 @@ Baserat på ramverket Lydia av Mikael Roos, lärare på BTH.
 Om det inte fungerar kan du göra katalogerna skrivbara i studentservern med hjälp av något sftp-program. Använd exempelvis FileZilla.
 Högerklicka på katalogen, välj filrättigheter och skriv 777. Du måste också göra filen `.ht.sqlite` som finns i katalogen `site/data` skrivbar. Gör samma sak som för katalogen men skriv i stället 666. 
 
-4. Öppna ramverket i din webbläsare och klicka på `module/install` på startsidan <b>Index Controller</b> för att slutföra installationen.
+4. Öppna ramverket i din webbläsare och klicka på `module/install` på startsidan __Index Controller__ för att slutföra installationen.
 
 ###Användning av ramverket
 
@@ -23,9 +23,9 @@ Om din inloggning lyckas så kan du ändra användarens kontouppgifter, såsom l
 
 ###Skapa content
 
-Klicka på `Content` i menyn längst upp på sidan. Nu laddas sidan <b>Content Controller</b>. I spalten <b>Actions</b> längst ner på sidan finns länken `create new content`. Klicka på den.
+Klicka på `Content` i menyn längst upp på sidan. Nu laddas sidan __Content Controller__. I spalten __Actions__ längst ner på sidan finns länken `create new content`. Klicka på den.
 
-Nu visas formuläret <b>Create Content</b>. 
+Nu visas formuläret __Create Content__. 
 * Title är bloggposten/sidans titel,
 * Key är ett nyckelord. Här får du inte ha mellenslag. Dvs. skriv tex. ny-sida i stället för ny sida.
 * Content är en textarea, här skriver du in brödtext. Tänk på att implementera de filter som du vill ha.
@@ -53,7 +53,7 @@ För att ändra namn på någon av länkarna, tex. About Me, editera då texten:
 ```
 ###Lägga till en page i menyn
 
-Följ stegen för <b>Skapa content</b> här ovan för att skapa en ny page. Klicka på `Content` i menyn. Kolla i listan på sidan <b>Content Controller</b>.
+Följ stegen för __Skapa content__ här ovan för att skapa en ny page. Klicka på `Content` i menyn. Kolla i listan på sidan __Content Controller__.
 Ditt nyss skapade content ska ha lagts till i denna lista längst ner. Den har då fått ett nummer. Som standard så skapas 8 contents som default. Ditt nya content bör därför ha fått nummer 9.
 Denna siffra behövs för att kunna länka till den nya sidan/page.
 
