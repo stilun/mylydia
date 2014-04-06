@@ -30,10 +30,10 @@ Nu laddas formuläret <b>Create Content</b>.
 * Key är ett nyckelord. Här får du inte ha mellenslag. Dvs. skriv tex. ny-sida i stället för ny sida.
 * Content är en textarea, här skriver du in brödtext. Tänk på att implementera de filter som du vill ha.
 * Type, här skriver du vilken form av content man skapar.
-	<br>För att skapa ett blogginlägg, skriv post. 
-	<br>För att skapa en sida, skriv page. 
+	* För att skapa ett blogginlägg, skriv post. 
+	* För att skapa en sida, skriv page. 
 * Filter, här kan du ange olika filter beroende på om man har implementerat dessa i brödtexten. 
-	<br>Filter: htmlpurify, bbcode och plain. Om inga filter önskas, fyll i plain.
+	* Filter: htmlpurify, bbcode och plain. Om inga filter önskas, fyll i plain.
 	
 ###Ändra namn/sökvägar på content
 
