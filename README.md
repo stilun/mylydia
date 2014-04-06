@@ -25,7 +25,7 @@ Om din inloggning lyckas så kan du ändra användarens kontouppgifter, såsom l
 
 Klicka på `Content` i menyn längst upp på sidan. Nu laddas sidan <b>Content Controller</b>. I spalten <b>Actions</b> längst ner på sidan finns länken `create new content`. Klicka på den.
 
-Nu laddas formuläret <b>Create Content</b>. 
+Nu visas formuläret <b>Create Content</b>. 
 * Title är bloggposten/sidans titel,
 * Key är ett nyckelord. Här får du inte ha mellenslag. Dvs. skriv tex. ny-sida i stället för ny sida.
 * Content är en textarea, här skriver du in brödtext. Tänk på att implementera de filter som du vill ha.
