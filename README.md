@@ -1,4 +1,4 @@
-#My MVC project in Lydia.
+#MyLydia. Mitt MVC-projekt.
 
 Skapat av Stig Lundmark, stig@stilun.de som en del i kursen "Databasdrivna webbapplikationer med PHP och MVC" på Blekinge Tekniska Högskola.
 Baserat på ramverket Lydia av Mikael Roos, lärare på BTH.
