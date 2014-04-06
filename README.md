@@ -78,12 +78,12 @@ Editera designen
 Navigera till: `site/config.php` och öppna den i en texteditor.
 Här kan du sedan editera en hel del saker som rör designen på hemsidan såsom, logotype, favicon, slogan, navigeringsmeny, header och footer.
 För att ändra till exempel logo, ladda upp logotypen till mappen `site/themes/mytheme/`.<br>
-Detta gör filen åtkomstbar via sökvägarna(OBS! Du kan behöva ändra filrättighet på bilden till 666.)
-Gå sen ner till rad `'logo' => 'logo_80x80.png'`. Skriv in det nya namnet i stället för `logo_80x80.png`. Gör på samma sätt om du vill ändra på favicon.<br>
+Detta gör filen åtkomstbar via sökvägarna (OBS! Du kan behöva ändra filrättighet på bilden till 666.)
+Gå sen ner till rad `'logo' => 'logo_80x80.png'`. Skriv in det nya filnamnet i stället för `logo_80x80.png`. Gör på samma sätt om du vill ändra på favicon, slogan, header, osv.<br>
 
 För att ändra på footern, ändra i raden: `'footer' => '<p>Lydia &copy; by Stig Lundmark (stig@stilun.de)</p>',`.
 
-För att ändringarna ska fungera, ladda upp den sparade filen till servern igen.
+För att ändringarna ska fungera, ladda upp den ändrade och sparade filen till servern igen.
 
 <b>site/config.php:</b>
 ```PHP
