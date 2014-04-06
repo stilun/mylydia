@@ -83,7 +83,7 @@ För att ändra på footern, ändra i raden: `'footer' => '<p>Lydia &copy; by St
 
 För att ändringarna ska fungera, ladda upp den ändrade och sparade filen till servern igen.
 
-<b>site/config.php:</b>
+####site/config.php:
 ```PHP
 $ly->config['theme'] = array(
   'path' => 'site/themes/mytheme',
@@ -113,7 +113,7 @@ $ly->config['theme'] = array(
 
 För att ändra färg och font, navigera till `site/themes/mytheme/style.css` och öppna den i valfri texteditor.
 
-<b>site/themes/mythemes/style.css:</b>
+####site/themes/mythemes/style.css:
 ```CSS
 /**
 * Description: Sample theme for site which extends the Lydia grid-theme.
