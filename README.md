@@ -23,10 +23,8 @@ Om din inloggning lyckas så kan du ändra användarens kontouppgifter, såsom l
 
 ###Skapa content
 
-Klicka på `Content` i menyn längst upp på sidan. Nu laddas sidan __Content Controller__. I spalten __Actions__ längst ner på sidan finns länken `create new content`. Klicka på den.
-
-Nu visas formuläret __Create Content__. 
-* Title är bloggposten/sidans titel,
+Klicka på `Content` i menyn längst upp på sidan. Nu laddas sidan __Content Controller__. I spalten __Actions__ längst ner hittar du `Create new content`. Klicka på den.<br>
+*__Title__ är bloggposten/sidans titel,
 * __Key__ är ett nyckelord. Här får du inte ha mellanslag. Dvs. skriv tex. ny-sida i stället för ny sida.
 * __Content__ är en textarea, här skriver du in brödtext. Tänk på att implementera de filter som du vill ha.
 * __Type__, här skriver du vilken form av content man skapar.
