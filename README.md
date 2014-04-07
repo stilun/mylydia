@@ -34,6 +34,9 @@ Nu visas formuläret __Create Content__.
 	* För att skapa en sida, skriv page. 
 * Filter, här kan du ange olika filter beroende på om man har implementerat dessa i brödtexten. 
 	* Filter: htmlpurify, bbcode och plain. Om inga filter önskas, fyll i plain.
+
+Ramverket innehåller som default redan en blogg. Om du vill skapa ännu en blogg skapar du lämpligast en ny mapp 
+`src/CCBlog2`. Återanvänd/kopiera sedan filerna i `src/CCBlog` och lägg dessa i den nya mappen i modifierad form. Du måste också lägga till `'blog2' => array('enabled' => true,'class' => 'CCBlog2'),` i controllern i `site/config.php`, samt uppdatera menyn med en länk till den nya bloggen.
 	
 ###Ändra namn/sökvägar på content
 
