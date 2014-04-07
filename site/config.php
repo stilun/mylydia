@@ -175,7 +175,7 @@ $ly->config['theme'] = array(
   ),
   'menu_to_region' => array('my-navbar'=>'navbar'),
   'data' => array(
-    'header' => 'Lydia',
+    'header' => 'MyLydia',
     'slogan' => 'A PHP-based MVC-inspired CMF',
     'favicon' => 'logo_80x80.png',
     'logo' => 'logo_80x80.png',
