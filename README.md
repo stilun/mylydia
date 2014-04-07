@@ -27,12 +27,12 @@ Klicka på `Content` i menyn längst upp på sidan. Nu laddas sidan __Content Co
 
 Nu visas formuläret __Create Content__. 
 * Title är bloggposten/sidans titel,
-* Key är ett nyckelord. Här får du inte ha mellenslag. Dvs. skriv tex. ny-sida i stället för ny sida.
-* Content är en textarea, här skriver du in brödtext. Tänk på att implementera de filter som du vill ha.
-* Type, här skriver du vilken form av content man skapar.
+* __Key__ är ett nyckelord. Här får du inte ha mellanslag. Dvs. skriv tex. ny-sida i stället för ny sida.
+* __Content__ är en textarea, här skriver du in brödtext. Tänk på att implementera de filter som du vill ha.
+* __Type__, här skriver du vilken form av content man skapar.
 	* För att skapa ett blogginlägg, skriv post. 
 	* För att skapa en sida, skriv page. 
-* Filter, här kan du ange olika filter beroende på om man har implementerat dessa i brödtexten. 
+* __Filter__, här kan du ange olika filter beroende på om man har implementerat dessa i brödtexten. 
 	* Filter: htmlpurify, bbcode och plain. Om inga filter önskas, fyll i plain.
 	
 ###Ändra namn/sökvägar på content
