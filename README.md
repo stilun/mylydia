@@ -3,7 +3,7 @@
 Skapat av Stig Lundmark, stig@stilun.de som en del i kursen "Databasdrivna webbapplikationer med PHP och MVC" på Blekinge Tekniska Högskola.
 Baserat på ramverket Lydia av Mikael Roos, lärare på BTH.
 
-###Installation av MyLydia
+##Installation av MyLydia
 
 1. Klona ramverket från GitHub `git clone git://github.com/stilun/mylydia.git` eller gå in på `https://github.com/stilun/mylydia` och ladda ner det som en zip-fil och lägg filerna på en lämplig plats i din dator. Öppna ramverket med `cd mylydia` i Git Bash eller i Terminal.  
 
@@ -15,7 +15,7 @@ Högerklicka på katalogen, välj filrättigheter och skriv 777. Du måste ocks�
 
 4. Öppna ramverket i din webbläsare och klicka på `module/install` på startsidan __Index Controller__ för att slutföra installationen.
 
-###Användning av ramverket
+##Användning av ramverket
 
 Nu är grundinstallationen av ramverket klart och kan börja användas.
 Uppe i högra hörnet finns en login-länk. Klicka på den och prova att logga in med `root:root` för administratör eller `doe:doe` för member.<br>
